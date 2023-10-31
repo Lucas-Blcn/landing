@@ -1,0 +1,63 @@
+/* Fonts */
+/* font-family: 'Lato', sans-serif;
+font-family: 'M PLUS Rounded 1c', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Signika Negative', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.banner {
+  height: 500px;
+  background-image: url("../images/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: aliceblue;
+}
+
+.container h1 {
+  margin: 0;
+  color: white;
+  font-size: 30px;
+  font-family: Poppins;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+}
+
+.container p{
+  color:white;
+  opacity: 0.7;
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.btn-treehouse {
+  border-radius: 25px;
+  background-color: #6AD58B;
+  padding: 15px 30px;
+  font-weight: bold ;
+  color: white;
+  transition: background 0.3s ease-out;
+}
+
+.btn-treehouse:hover {
+  opacity: 1;
+  background: #3ac162 ;
+}
